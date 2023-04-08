@@ -14,6 +14,8 @@ $(call inherit-product, device/nothing/Spacewar/device.mk)
 # Inherit some common Arrow stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
+DEVICE_MAINTAINER := hiper25
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_Spacewar
 PRODUCT_DEVICE := Spacewar
